@@ -12,6 +12,7 @@
 		ED51663F24F6E0CC0062CE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED51663E24F6E0CC0062CE72 /* Assets.xcassets */; };
 		ED51664224F6E0CC0062CE72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED51664124F6E0CC0062CE72 /* Preview Assets.xcassets */; };
 		ED51664524F6E0CC0062CE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED51664324F6E0CC0062CE72 /* Main.storyboard */; };
+		ED51664F24F6EC680062CE72 /* CovidHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED51664E24F6EC680062CE72 /* CovidHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		ED51664424F6E0CC0062CE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED51664624F6E0CC0062CE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED51664724F6E0CC0062CE72 /* NetworkingSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkingSwiftUI.entitlements; sourceTree = "<group>"; };
+		ED51664E24F6EC680062CE72 /* CovidHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidHistory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		ED51663924F6E0C80062CE72 /* NetworkingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				ED51664D24F6EB8B0062CE72 /* DataModel */,
 				ED51663A24F6E0C90062CE72 /* AppDelegate.swift */,
 				ED51663C24F6E0C90062CE72 /* ContentView.swift */,
 				ED51663E24F6E0CC0062CE72 /* Assets.xcassets */,
@@ -72,6 +75,14 @@
 				ED51664124F6E0CC0062CE72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED51664D24F6EB8B0062CE72 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED51664E24F6EC680062CE72 /* CovidHistory.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED51664F24F6EC680062CE72 /* CovidHistory.swift in Sources */,
 				ED51663D24F6E0C90062CE72 /* ContentView.swift in Sources */,
 				ED51663B24F6E0C90062CE72 /* AppDelegate.swift in Sources */,
 			);
